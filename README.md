@@ -3,7 +3,7 @@
 
 - Librairie à installer :
     Dans le CLI Octave :
-	Cpkg install "https://downloads.sourceforge.net/project/octave/Octave%20Forge%20Packages/Individual%20Package%20Releases/symbolic-3.2.1.tar.gz"
+	pkg install "https://downloads.sourceforge.net/project/octave/Octave%20Forge%20Packages/Individual%20Package%20Releases/symbolic-3.2.1.tar.gz"
 
 - Lancer le script :
     Dans le CLI Octave avec assoc.m d'ouvert : 
