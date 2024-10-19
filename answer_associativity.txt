@@ -1,1 +1,2 @@
-
+Symbolic pkg v3.2.1: Python communication link active, SymPy v1.12.
+1.000000
