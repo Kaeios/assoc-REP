@@ -16,7 +16,7 @@ jobs:
     - name: Build the Docker image
       run: |
         docker build . --file Dockerfile -t assoc
-        docker run assoc
+        docker run assoc >> CMD answer_associativity.txt
     - uses: actions/upload-artifact@v4
       with:
         name: assoc
