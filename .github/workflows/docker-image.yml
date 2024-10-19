@@ -27,6 +27,8 @@ jobs:
       runs-on: ubuntu-latest
       needs: build
       steps:
+        - name: dl code
+          uses: actions/checkout@v4
         - name: dl result
           uses: actions/download-artifact@v4
           with:
