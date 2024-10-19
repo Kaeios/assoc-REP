@@ -1,2 +1,5 @@
 pkg load symbolic
-assoc(100)
+result = assoc(100)
+fileID = fopen('answer_associativity.txt','w');
+fprintf(fileID, '%f\n', double(result));
+fclose(fileID);
