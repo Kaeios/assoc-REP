@@ -27,6 +27,10 @@ jobs:
       runs-on: ubuntu-latest
       needs: build
       steps:
+        - name: dl result
+          uses: actions/download-artifact@v4
+          with:
+            name: assoc
         - name: git config
           run: |
             git config --global user.name "CI-Auto"
