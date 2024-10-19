@@ -15,9 +15,17 @@ jobs:
     - uses: actions/checkout@v4
     - name: Build the Docker image
       run: docker build . --file Dockerfile -t assoc
-    - run: docker run assoc >> output.txt
+    - run: docker run assoc >> answer_associativity.txt
     - uses: actions/upload-artifact@v4
       with:
         name: assoc
-        path: output.txt
-    
+        path: answer_associativity.txt
+    - name: git conf
+      run: |
+        git config --global user.name "CI-Auto"
+        git config --global user.email "ci@auto.net"
+    - name: push
+      run: |
+        git add answer_associativity.txt
+        git commit -m "Upload result (CI)"
+        git push
