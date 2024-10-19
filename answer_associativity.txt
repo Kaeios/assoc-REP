@@ -1,2 +1,4 @@
 Symbolic pkg v3.2.1: Python communication link active, SymPy v1.12.
 ans = (sym) 1.0000000000000000000000000000000
+Symbolic pkg v3.2.1: Python communication link active, SymPy v1.12.
+ans = (sym) 1.0000000000000000000000000000000
