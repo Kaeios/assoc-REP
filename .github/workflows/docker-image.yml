@@ -2,9 +2,9 @@ name: Docker Image CI
 
 on:
   push:
-    branches: [ "master" ]
+    branches: [ "master", "without-vpa" ]
   pull_request:
-    branches: [ "master" ]
+    branches: [ "master", "without-vpa" ]
 
 jobs:
   build:
