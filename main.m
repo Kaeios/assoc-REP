@@ -6,5 +6,5 @@ evalc('pkg load symbolic');
 
 result = assoc(100);
 fileID = fopen('answer_associativity.txt','w');
-fprintf(fileID, '%f\n', double(result));
+fprintf(fileID, '%.2f\n', double(100 * result));
 fclose(fileID);
