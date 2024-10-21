@@ -2,9 +2,9 @@ name: Docker Image CI
 
 on:
   push:
-    branches: [ "master" ]
+    branches: [ "master", "decimal-precision-16" ]
   pull_request:
-    branches: [ "master" ]
+    branches: [ "master", "decimal-precision-16" ]
 
 jobs:
   build:
