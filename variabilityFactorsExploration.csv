@@ -1,0 +1,9 @@
+Representation,Predicate,VPADigits,Result
+VPA,comp,1,0.58
+VPA,comp,8,0.71
+VPA,comp,16,1
+VPA,comp,32,1
+VPA,comp,64,1
+VPA,diff,32,1
+float,comp,,0.8271
+float,diff,,0.8195
